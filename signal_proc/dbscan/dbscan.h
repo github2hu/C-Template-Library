@@ -37,7 +37,6 @@ typedef struct dbscan {
 #define EDGE      3
 #define NOISE     4
 
-//	struct stack new_nbr;
 	struct deque finded_pts;
 }dbscan_st;
 
